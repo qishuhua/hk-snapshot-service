@@ -1,0 +1,100 @@
+.dockerignore
+  h_4ba6e213f37271 1-6
+.gitignore
+  h_4ba6e213f37271 1-5
+CMakeLists.txt
+  h_4ba6e213f37271 1-98
+Dockerfile
+  h_4ba6e213f37271 1-52
+README.md
+  h_4ba6e213f37271 1-223
+docker-compose.yml
+  h_4ba6e213f37271 1-28
+scripts/smoke_test.sh
+  h_4ba6e213f37271 1-57
+src/capture/history_capture.cpp
+  h_4ba6e213f37271 1-486
+src/capture/history_capture.hpp
+  h_4ba6e213f37271 1-87
+src/capture/nearest_osd.hpp
+  h_4ba6e213f37271 1-35
+src/capture/realtime_capture.cpp
+  h_4ba6e213f37271 1-72
+src/capture/realtime_capture.hpp
+  h_4ba6e213f37271 1-14
+src/common/app_log.hpp
+  h_4ba6e213f37271 1-148
+src/common/error.hpp
+  h_4ba6e213f37271 1-18
+src/common/request_context.hpp
+  h_4ba6e213f37271 1-41
+src/common/time_util.hpp
+  h_4ba6e213f37271 1-111
+src/config/config.cpp
+  h_4ba6e213f37271 1-33
+src/config/config.hpp
+  h_4ba6e213f37271 1-42
+src/http/http_api.cpp
+  h_4ba6e213f37271 1-292
+src/http/http_api.hpp
+  h_4ba6e213f37271 1-11
+src/http/request_log.cpp
+  h_4ba6e213f37271 1-99
+src/http/request_log.hpp
+  h_4ba6e213f37271 1-18
+src/main.cpp
+  h_4ba6e213f37271 1-65
+src/media/ff_util.hpp
+  h_4ba6e213f37271 1-18
+src/media/jpeg_encoder.cpp
+  h_4ba6e213f37271 1-178
+src/media/jpeg_encoder.hpp
+  h_4ba6e213f37271 1-38
+src/model/capture_types.hpp
+  h_4ba6e213f37271 1-44
+src/sdk/channel_query.hpp
+  h_4ba6e213f37271 1-99
+src/sdk/es_log.hpp
+  h_4ba6e213f37271 1-27
+src/sdk/es_queue.hpp
+  h_4ba6e213f37271 1-79
+src/sdk/sdk_codec.hpp
+  h_4ba6e213f37271 1-33
+src/sdk/sdk_env.hpp
+  h_4ba6e213f37271 1-134
+tests/app_log_test.cpp
+  h_4ba6e213f37271 1-59
+tests/es_queue_test.cpp
+  h_4ba6e213f37271 1-26
+tests/nearest_osd_test.cpp
+  h_4ba6e213f37271 1-30
+tests/request_context_test.cpp
+  h_4ba6e213f37271 1-59
+tests/request_logging_test.py
+  h_4ba6e213f37271 1-178
+tests/test.sh
+  h_4ba6e213f37271 1-11
+third_party/HCNetSDK/include/DataType.h
+  h_4ba6e213f37271 1-111
+third_party/HCNetSDK/include/DecodeCardSdk.h
+  h_4ba6e213f37271 1-451
+third_party/HCNetSDK/include/HCNetSDK.h
+  h_4ba6e213f37271 1-52847
+third_party/HCNetSDK/include/plaympeg4.h
+  h_4ba6e213f37271 1-760
+third_party/HCNetSDK/lib/HCNetSDK_Log_Switch.xml
+  h_4ba6e213f37271 1-12
+web/index.html
+  h_4ba6e213f37271 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "5aed367b4d6123fcd27230ae955c12a3455ce33c",
+  "prompts": {},
+  "humans": {
+    "h_4ba6e213f37271": {
+      "author": "henry.qi <heny.qi@jtexpress.com>"
+    }
+  }
+}
