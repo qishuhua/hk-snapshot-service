@@ -1,0 +1,28 @@
+services:
+  hk-snapshot:
+    build: .
+    image: hk-snapshot-service:latest
+    container_name: hk-snapshot
+    ports:
+      - "8180:8180"
+    environment:
+      # 每台设备的截图并发请求上限
+      HKMEDIA_MAX_CONCURRENT: "16"
+      # 单请求默认超时（毫秒，上限 60000）
+      HKMEDIA_DEFAULT_TIMEOUT_MS: "15000"
+      # 默认 JPEG 档位：0 最好 1 较好 2 一般
+      HKMEDIA_JPEG_QUALITY: "1"
+      # 日志级别 debug/info/warn/error
+      HKMEDIA_LOG_LEVEL: "info"
+      # HCNetSDK 自身日志（排障，写入容器内 /opt/hk-snapshot-service/sdk_log）
+      HKMEDIA_SDK_LOG: "0"
+    restart: unless-stopped
+    # spdlog 滚动日志落地（100MB x 30），不挂载则容器重建后丢失
+    volumes:
+      - ./data/logs:/data/logs
+    # 软解码为 CPU 密集，按并发与机型调整
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 2g
