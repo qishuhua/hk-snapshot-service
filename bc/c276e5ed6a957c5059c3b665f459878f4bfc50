@@ -1,0 +1,116 @@
+tests/test.sh
+  h_4ba6e213f37271 1-11
+tests/request_logging_test.py
+  h_4ba6e213f37271 1-178
+.gitignore
+  h_4ba6e213f37271 1-5
+.dockerignore
+  h_4ba6e213f37271 1-6
+src/sdk/channel_query.hpp
+  h_4ba6e213f37271 1-99
+src/capture/history_capture.hpp
+  h_4ba6e213f37271 1-87
+src/model/capture_types.hpp
+  h_4ba6e213f37271 1-44
+src/main.cpp
+  h_4ba6e213f37271 1-65
+src/config/config.cpp
+  h_4ba6e213f37271 1-33
+README.md
+  s_7b416a152326b4::t_727f4dc57c5ee2 156,158-162
+  s_7b416a152326b4::t_82a6a21931d322 1-155,157,163-224
+src/media/jpeg_encoder.cpp
+  h_4ba6e213f37271 1-178
+src/config/config.hpp
+  h_4ba6e213f37271 1-42
+tests/es_queue_test.cpp
+  h_4ba6e213f37271 1-26
+CMakeLists.txt
+  h_4ba6e213f37271 1-98
+src/capture/realtime_capture.cpp
+  h_4ba6e213f37271 1-72
+src/sdk/sdk_codec.hpp
+  s_7b416a152326b4::t_882ee31814458e 3
+  h_4ba6e213f37271 1-2,4-33
+src/sdk/es_queue.hpp
+  s_7b416a152326b4::t_1ce75e7f807f8f 1-79
+src/common/request_context.hpp
+  h_4ba6e213f37271 1-41
+tests/app_log_test.cpp
+  h_4ba6e213f37271 1-59
+src/media/ff_util.hpp
+  h_4ba6e213f37271 1-18
+src/common/time_util.hpp
+  h_4ba6e213f37271 1-111
+src/common/app_log.hpp
+  s_7b416a152326b4::t_954da89ff10b09 35
+  h_4ba6e213f37271 1,6-34,36-146
+  s_7b416a152326b4::t_887da7c8cff901 2-5
+web/index.html
+  h_4ba6e213f37271 1-26
+src/capture/nearest_osd.hpp
+  h_4ba6e213f37271 1-35
+third_party/HCNetSDK/lib/HCNetSDK_Log_Switch.xml
+  h_4ba6e213f37271 1-12
+src/sdk/sdk_env.hpp
+  h_4ba6e213f37271 1-134
+src/http/http_api.cpp
+  h_4ba6e213f37271 1-292
+src/http/http_api.hpp
+  h_4ba6e213f37271 1-11
+tests/nearest_osd_test.cpp
+  h_4ba6e213f37271 1-30
+src/http/request_log.hpp
+  h_4ba6e213f37271 1-18
+src/capture/realtime_capture.hpp
+  h_4ba6e213f37271 1-14
+third_party/HCNetSDK/include/DecodeCardSdk.h
+  h_4ba6e213f37271 1-451
+src/common/error.hpp
+  h_4ba6e213f37271 1-18
+third_party/HCNetSDK/include/plaympeg4.h
+  h_4ba6e213f37271 1-760
+third_party/HCNetSDK/include/HCNetSDK.h
+  h_4ba6e213f37271 1-52847
+third_party/HCNetSDK/include/DataType.h
+  h_4ba6e213f37271 1-111
+src/http/request_log.cpp
+  h_4ba6e213f37271 1-99
+Dockerfile
+  h_4ba6e213f37271 1-52
+src/media/jpeg_encoder.hpp
+  s_7b416a152326b4::t_929c73e9c7e95c 2-3
+  s_7b416a152326b4::t_d29f3ff3619726 19
+  h_4ba6e213f37271 1,4-18,20-37
+src/capture/history_capture.cpp
+  s_7b416a152326b4::t_28fd4ddeffbf16 1-486
+src/sdk/es_log.hpp
+  h_4ba6e213f37271 1-27
+docker-compose.yml
+  h_4ba6e213f37271 1-28
+tests/request_context_test.cpp
+  h_4ba6e213f37271 1-59
+scripts/smoke_test.sh
+  h_4ba6e213f37271 1-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "bcc276e5ed6a957c5059c3b665f459878f4bfc50",
+  "prompts": {},
+  "humans": {
+    "h_4ba6e213f37271": {
+      "author": "henry.qi <heny.qi@jtexpress.com>"
+    }
+  },
+  "sessions": {
+    "s_7b416a152326b4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6c1fb91a-39e7-4e85-931a-2d6f856c8dd6",
+        "model": "glm-5.3"
+      },
+      "human_author": null
+    }
+  }
+}
